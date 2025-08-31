@@ -2320,7 +2320,7 @@ Button.Parent = ScreenGui
 Button.Size = UDim2.new(0, 50, 0, 50)
 Button.Position = UDim2.new(0.015, 0, 0.02, 20)
 Button.BackgroundTransparency = 1
-Button.Image = "rbxassetid://130859905437947"
+Button.Image = "https://cdn.discordapp.com/attachments/980816003741155418/1411660755140345969/standard_1.gif?ex=68b57707&is=68b42587&hm=45617943f76838cf147389d48e432f9823977991789f42cc3b737234bf4e652a&"
 local UICorner = Instance.new("UICorner")
 
 UICorner.CornerRadius = UDim.new(1, 0)
@@ -2364,22 +2364,22 @@ Tabs.Info:AddButton({
         end
 })
 Tabs.Info:AddButton({
-    Title="thịnh",
+    Title="longdeptrai",
     Description="Youtube",
     Callback=function()
-        setclipboard(tostring("https://m.youtube.com/channel/UCjIFH5AZ761OfX_7o5Nurvw"))
+        setclipboard(tostring(""))
     end
 })
 Tabs.Info:AddButton({
     Title="Fb thịnh",
     Description="Facebook",
     Callback=function()
-        setclipboard(tostring("https://www.facebook.com/"))
+        setclipboard(tostring(""))
     end
 })
 Tabs.Info:AddParagraph({
-    Title="thịnh hoàng",
-    Content="Credits"
+    Title="longdeptrai",
+    Content="ceartor"
 })
 local executorName
 if identifyexecutor then
